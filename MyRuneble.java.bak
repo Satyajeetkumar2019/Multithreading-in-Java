@@ -1,0 +1,19 @@
+class MyRuneble implements Runnable {
+public void run(){
+
+System.out.println("run method ");
+}//end run method 
+public static void main(String[] args){
+MyRuneble obj=new MyRuneble();
+//obj.start();
+
+Thread th =new Thread(obj);
+th.start();
+
+}
+
+
+
+
+
+}//end class 

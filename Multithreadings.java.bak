@@ -1,0 +1,14 @@
+//Multiplethreade with diffrent logi
+class Multithreadings {
+public static void main(String[] args){
+System.out.println("main start :");
+SubtractionThread th=new SubtractionThread();
+th.start();
+
+}
+
+
+
+
+
+}
