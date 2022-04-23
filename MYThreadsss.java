@@ -1,0 +1,3 @@
+class MYThreadsss extends Thread
+{
+}
